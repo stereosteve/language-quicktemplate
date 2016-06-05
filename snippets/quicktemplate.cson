@@ -1,0 +1,19 @@
+'.text.html.quicktemplate':
+  'func':
+    'prefix': 'func'
+    'body': '{% func $1($2) %}\n\t$3\n{% endfunc %}'
+  'import':
+    'prefix': 'import'
+    'body': '{% import ("$1") %}'
+  'for':
+    'prefix': 'for'
+    'body': '{% for _, $1 := range $2 %}\n\t$3\n{% endfor %}'
+  'if':
+    'prefix': 'if'
+    'body': '{% if $1 %}\n\t$2\n{% endif %}'
+  '%':
+    'prefix': '%'
+    'body': '{% $1 %}'
+  's':
+    'prefix': 's'
+    'body': '{%s $1 %}'
