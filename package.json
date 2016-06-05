@@ -1,15 +1,13 @@
 {
   "name": "language-quicktemplate",
   "main": "./lib/language-quicktemplate",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "HTML quicktemplate support (golang)",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/stereosteve/language-quicktemplate",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
